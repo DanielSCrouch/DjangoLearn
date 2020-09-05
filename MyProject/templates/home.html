@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock %}
+
+{% block body %}
+
+<h1>This is the latest home page</h1>
+<p>fdsjfkdslhjfwriofshdfoiehfiewhf</p>
+
+<h3>My name is {{name}}</h3>
+
+{{list}}
+
+{% for lang in list %}
+
+<ul>
+    <li>{{lang}}</li>
+</ul>
+{% endfor %}
+
+{% if number == 50 %}
+
+<h1>Condition is True</h1>
+
+{% else %}
+
+<h1>Condition is False</h1>
+
+
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock %}
+
+{% block body %}
+
+<h1>This is the latest news page filtered by date</h1>
+
+<h1>Articles for the year {{year}}</h1>
+
+{% for art in article_list %}
+
+<h3>{{art.author}}</h3>
+<h3>{{art.title}}</h3>
+<h3>{{art.description}}</h3>
+<h3>{{art.pub_date}}</h3>
+
+{% endfor %}
+
+{% endblock %}
