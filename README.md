@@ -10,7 +10,7 @@ Django Rest
 ```pip3 install djangorestframework```
 
 ## MySQL Database 
-```brew install mysql`` for mac
+```brew install mysql``` for mac
 
 ```sudo apt install libmysqlclient-dev``` for Ubuntu
 
